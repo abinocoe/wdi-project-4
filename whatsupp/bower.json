@@ -1,0 +1,17 @@
+{
+  "name": "whatsupp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "abinocoe <abigailcoe@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/abinocoe/wdi-project-4",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
