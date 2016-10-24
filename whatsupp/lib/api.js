@@ -1,6 +1,5 @@
 const aylien     = require('aylien_textapi');
-const example = require('./texts/testArray.js');
-console.log(example.array);
+const example    = require('./texts/testArray.js');
 
 textAPI.sentiment({
   'text': example.array
