@@ -20,8 +20,9 @@ app.post("/upload", upload.single('file'), (req,res) => {
 
   ChatManipulator(text)
     .then((data) => res.status(200).json(data))
-    .catch(function(){
+    .catch(function(e){
       console.log("ERROR");
+      console.log(e);
     });
 });
 

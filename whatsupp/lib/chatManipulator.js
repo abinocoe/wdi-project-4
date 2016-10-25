@@ -48,27 +48,32 @@ function convert(text, next) {
 
       return done(null, names, personOneMessages, personTwoMessages);
     },
-    function sendFirstToAPI(names, personOneMessages, personTwoMessages, done) {
+    function joinToMassiveStrings(names, personOneMessages, personTwoMessages, done) {
+      var oneLargeSentence = personOneMessages.join(". ");
+      var twoLargeSentence = personTwoMessages.join(". ");
+      console.log(oneLargeSentence);
+      return done(null, names, oneLargeSentence, twoLargeSentence);
+    },
+    function sendFirstToAPI(names, oneLargeSentence, twoLargeSentence, done) {
+      console.log(oneLargeSentence);
       textAPI.aspectBasedSentiment({
         'domain': 'restaurants',
-        'text': personOneMessages
+        'text': oneLargeSentence
       }, function(err, response) {
         if (err) return done(err);
-
         console.log("&&&&&&&&&&&&&&&&&&&&&&&", response.sentences)
 
-        return done(null, names, response.sentences, personTwoMessages);
+        return done(null, names, response.sentences, twoLargeSentence);
       });
     },
-    function sendSecondToAPI(names, personOneSentences, personTwoMessages, done) {
+    function sendSecondToAPI(names, personOneSentences, twoLargeSentence, done) {
       textAPI.aspectBasedSentiment({
         'domain': 'restaurants',
-        'text': personTwoMessages
+        'text': twoLargeSentence
       }, function(err, response) {
         if (err) return done(err);
 
         console.log("&&&&&&&&&&&&&&&&&&&&&&&", response.sentences)
-
         return done(null, names, personOneSentences, response.sentences);
       });
     }
