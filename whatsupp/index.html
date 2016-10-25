@@ -14,6 +14,8 @@
       <button type="submit">submit</button>
     </form>
 
+    {{ main.data }}
+
     <script>
       angular
         .module("whatsupp", ['ngFileUpload'])
@@ -31,6 +33,7 @@
                 url: '/upload',
                 data: { file: file }
               }).then(function (response) {
+                vm.data = response;
                 console.log(response);
               }, function (response) {
                 console.log('Error status: ' + response.status);

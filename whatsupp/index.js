@@ -7,10 +7,7 @@ const upload     = multer();
 const app        = express();
 const router     = require('./config/routes');
 const ChatManipulator = require('./lib/chatManipulator');
-// const textAPI    = new aylien({
-//   application_id: "e47c5ef6",
-//   application_key: "bf3534a7149f26a0d8bbbe50bcc3b023"
-// });
+
 
 const port    = process.env.PORT || 3000;
 app.use(bodyParser.json());
@@ -19,10 +16,13 @@ app.use(bodyParser.urlencoded({extended: true}));
 // app.use(express.static("something..."));
 
 app.post("/upload", upload.single('file'), (req,res) => {
-  // console.log(req.file);
   let text = req.file.buffer.toString('utf-8');
-  // console.log(text);
-  let converted = new ChatManipulator(text);
+
+  ChatManipulator(text)
+    .then((data) => res.status(200).json(data))
+    .catch(function(){
+      console.log("ERROR");
+    });
 });
 
 app.get("/*", (req, res) => res.sendFile(`${__dirname}/index.html`));
