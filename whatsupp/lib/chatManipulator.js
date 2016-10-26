@@ -76,13 +76,83 @@ function convert(text, next) {
         console.log("&&&&&&&&&&&&&&&&&&&&&&&", response.sentences)
         return done(null, names, personOneSentences, response.sentences);
       });
+    },
+    function blah(names, personOneSentences, personTwoSentences, done) {
+    // write logic here to calculate percentages
+    let positivityOne     = 0;
+    let negativityOne     = 0;
+    let neutralOne        = 0;
+    let positivityTwo     = 0;
+    let negativityTwo     = 0;
+    let neutralTwo        = 0;
+    const messageCountOne = personOneSentences.length;
+    const messageCountTwo = personTwoSentences.length;
+
+    for (var i = 0; i < personOneSentences.length; i++) {
+      if (personOneSentences[i].polarity === 'positive') {
+        positivityOne++;
+      } else if (personOneSentences[i].polarity === 'negative') {
+        negativityOne++;
+      } else {
+        neutralOne++;
+      }
     }
-  ], function (err, names, personOneSentences, personTwoSentences) {
+
+    for (var j = 0; j < personTwoSentences.length; j++) {
+      if (personTwoSentences[j].polarity === 'positive') {
+        positivityTwo+=1;
+      } else if (personTwoSentences[j].polarity === 'negative') {
+        negativityTwo++;
+      } else {
+        neutralTwo++;
+      }
+    }
+    // console.log(names[0] + " is:");
+    // console.log(((positivityOne / personOneSentences.length)*100).toFixed(1) + "% positive");
+    // console.log(((negativityOne / personOneSentences.length)*100).toFixed(1) + "% negative");
+    // console.log(((neutralOne / personOneSentences.length)*100).toFixed(1) + "% neutral");
+    // console.log("Over " + personOneSentences.length + " messages");
+      return done(null, {
+        names,
+        messageCountOne,
+        positivityOne,
+        negativityOne,
+        neutralOne,
+        messageCountTwo,
+        positivityTwo,
+        negativityTwo,
+        neutralTwo
+      });
+    },
+    function calculatePerCents({
+        names,
+        messageCountOne,
+        positivityOne,
+        negativityOne,
+        neutralOne,
+        messageCountTwo,
+        positivityTwo,
+        negativityTwo,
+        neutralTwo
+      }, done) {
+      const nameOneResults = [];
+      const nameTwoResults = [];
+      nameOneResults.push(names[0]);
+      nameOneResults.push(messageCountOne);
+      nameOneResults.push(((positivityOne / messageCountOne)*100).toFixed(1));
+      nameOneResults.push(((negativityOne / messageCountOne)*100).toFixed(1));
+      nameOneResults.push(((neutralOne / messageCountOne)*100).toFixed(1));
+      nameTwoResults.push(names[1]);
+      nameTwoResults.push(messageCountTwo);
+      nameTwoResults.push(((positivityTwo / messageCountTwo)*100).toFixed(1));
+      nameTwoResults.push(((negativityTwo / messageCountTwo)*100).toFixed(1));
+      nameTwoResults.push(((neutralTwo / messageCountTwo)*100).toFixed(1));
+      console.log(nameOneResults);
+      console.log(nameTwoResults);
+      return done(null, nameOneResults, nameTwoResults);
+    }
+  ], function (err, result) {
     if (err) console.log(err);
-    return next(null, {
-      names,
-      personOneSentences,
-      personTwoSentences
-    });
+    return next(null, result);
   });
 }

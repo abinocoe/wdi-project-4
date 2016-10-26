@@ -19,7 +19,10 @@ app.post("/upload", upload.single('file'), (req,res) => {
   let text = req.file.buffer.toString('utf-8');
 
   ChatManipulator(text)
-    .then((data) => res.status(200).json(data))
+    .then((data) => {
+      console.log("AAAAAAAAAAAAAaammmmmmmada");
+      res.status(200).json(data);
+    })
     .catch(function(e){
       console.log("ERROR");
       console.log(e);
