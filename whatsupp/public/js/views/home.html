@@ -1,0 +1,19 @@
+<form name="home.uploadForm" ng-submit="home.upload()">
+  <input type="file" ngf-select="" ngf-select ng-model="home.file" name="file" ngf-max-size="20MB">
+  <button type="submit">submit</button>
+</form>
+
+<div ng-show="home.data.data">
+  <h1>******************</h1>
+  <h1>{{ home.data.data.personOne[0] }}</h1>
+  <h1>{{ home.data.data.personOne[1] }} messages</h1>
+  <h1>positive:{{ home.data.data.personOne[2] }}%</h1>
+  <h1>negative:{{ home.data.data.personOne[3] }}%</h1>
+  <h1>neutral:{{ home.data.data.personOne[4] }}%</h1>
+  <h1>******************</h1>
+  <h1>{{ home.data.data.personTwo[0] }}</h1>
+  <h1>{{ home.data.data.personTwo[1] }} messages</h1>
+  <h1>positive:{{ home.data.data.personTwo[2] }}%</h1>
+  <h1>negative:{{ home.data.data.personTwo[3] }}%</h1>
+  <h1>neutral:{{ home.data.data.personTwo[4] }}%</h1>
+</div>

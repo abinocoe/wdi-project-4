@@ -1,4 +1,5 @@
 const fs       = require('fs');
+const Analysis = require('../models/analysis');
 const aylien   = require('aylien_textapi');
 const textAPI  = new aylien({
   application_id: "e47c5ef6",
@@ -147,12 +148,23 @@ function convert(text, next) {
       nameTwoResults.push(((positivityTwo / messageCountTwo)*100).toFixed(1));
       nameTwoResults.push(((negativityTwo / messageCountTwo)*100).toFixed(1));
       nameTwoResults.push(((neutralTwo / messageCountTwo)*100).toFixed(1));
-      console.log(nameOneResults);
-      console.log(nameTwoResults);
       return done(null, nameOneResults, nameTwoResults);
+    },
+    function saveToDatabase(nameOneResults, nameTwoResults, done) {
+      let object = {
+        personOne: nameOneResults,
+        personTwo: nameTwoResults
+      };
+      Analysis.create(object, (err, analysis) => {
+        if (err) return console.error(err);
+        return console.log(`${analysis.personOne[0]} and ${analysis.personTwo[0]}'s chat analysis was saved`);
+      });
+      return done(null, object);
     }
   ], function (err, result) {
     if (err) console.log(err);
     return next(null, result);
   });
 }
+
+// f5252 ffd57a a8e68a
