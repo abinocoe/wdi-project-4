@@ -13,7 +13,7 @@ module.exports = Bluebird.promisify(convert);
 function convert(text, next) {
   return async.waterfall([
     function readFile(done) {
-      let array  = text.toString().split(/\n/);
+      let array  = text.toString().split(/\n/).slice(1);
       let result = [];
 
       for (var i = 0; i < array.length; i++) {
@@ -166,5 +166,3 @@ function convert(text, next) {
     return next(null, result);
   });
 }
-
-// f5252 ffd57a a8e68a

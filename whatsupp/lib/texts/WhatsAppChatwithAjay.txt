@@ -1,0 +1,178 @@
+24/09/2016, 12:34 - Messages you send to this chat and calls are now secured with end-to-end encryption. Tap for more info.
+24/09/2016, 12:34 - abigailcoe: Alright cheeky chops, it's Abi
+24/09/2016, 13:08 - Ajay: Oi oi
+24/09/2016, 13:09 - Ajay: Cheeky chops!! Haha love it
+24/09/2016, 13:22 - abigailcoe: Just calling it like I see it
+24/09/2016, 21:19 - abigailcoe: Also I didn't mention earlier but I fucking love that you call it "Gravey" which incidentally I am in right now!
+24/09/2016, 21:20 - abigailcoe: I would get takeaway from yours but I unexpectedly ate two very large sandwiches in quick succession and I anticipate that I'll be full now until Tuesday.
+24/09/2016, 22:31 - Ajay: Never mind. Well we can totally have a meal there together and I can help you pop your Chattorey cherry! Yay! Just as soon as you recover from your sandwiches lol
+25/09/2016, 14:54 - Ajay: How's it going? The letters are just floating around the screen at this point, I've officially lost the plot haha going for some much needed fresh air!
+25/09/2016, 14:57 - abigailcoe: Luls, I too have reached the point where a break is the only option. How far have you got?
+25/09/2016, 15:33 - Ajay: I've got to the point where, you guess it...nothing's working lol. I'm going to go through Alex's veggie example when I get back and start again using that. Keep going Abs! We'll get there 💪
+25/09/2016, 15:40 - abigailcoe: Haha true! If only there were more hours in the day is get everything sorted no problem.
+25/09/2016, 15:41 - abigailcoe: You never seem to ask for help though...you're never on slack apart for when it's gif time...it makes you appear as if you are totally fine with everything. It's nice to learn the truth 😀
+25/09/2016, 15:45 - Ajay: I only use slack for what it's supposed to be used for...mildly amusing random useless images! Good point though I'll really should make better use it lol
+25/09/2016, 15:46 - Ajay: Only you can appreciate the impeccable grammar there
+25/09/2016, 15:47 - abigailcoe: True. I had to immediately close my phone and open the smelling salts for I feared I would faint upon that first reading.
+25/09/2016, 16:05 - Ajay: Haha I almost sprayed all my tea over my laptop
+25/09/2016, 16:06 - Ajay: See I'm making better use of slack already! Yay!
+25/09/2016, 16:07 - Ajay: Right I'm going to stop disturbing you and get back to work! Woo!Coding!
+25/09/2016, 16:09 - abigailcoe: YOWO
+25/09/2016, 16:09 - abigailcoe: (You only WDI once)
+25/09/2016, 18:35 - abigailcoe: I feel like throwing in the towel. Do tell me that you're having a nightmare too?
+25/09/2016, 18:36 - abigailcoe: I've chased every error until I've got none left but my index of things remains empty :(
+25/09/2016, 19:09 - Ajay: Do throw that towel in Coe! It's not gulp is it lol
+25/09/2016, 19:11 - abigailcoe: Do?! Do throw it in?
+25/09/2016, 19:12 - abigailcoe: It is not gulp. More's the pity
+25/09/2016, 19:14 - Ajay: I think that just demonstrates how far down the rabbit hole I am! That was meant to be DON'T!
+25/09/2016, 19:16 - Ajay: I don't understand the /* instead of / in the index.js file...any ideas?
+25/09/2016, 19:16 - Ajay: At the bottom where we do the app.get
+25/09/2016, 19:28 - abigailcoe: I think that's for routing all of your other views after the /, the wildcard * catches them all
+25/09/2016, 19:29 - Ajay: JavaScript wizard! Thanks
+25/09/2016, 19:29 - abigailcoe: hhaaaaa yeah right
+25/09/2016, 19:30 - abigailcoe: All I've got is a double navbar
+25/09/2016, 19:31 - Ajay: All I've got is a semi..because nothing gets me more aroused than restful routing!
+25/09/2016, 19:31 - abigailcoe: you sicken me.
+25/09/2016, 19:31 - abigailcoe: I did laugh though
+25/09/2016, 19:32 - Ajay: Haaaa! I'm sorry it had to be said, I've got a real problem lol
+25/09/2016, 19:32 - Ajay: If only I could really get it up
+25/09/2016, 19:33 - abigailcoe: <Media omitted>
+25/09/2016, 19:33 - Ajay: The stuff on the browser, not what you're thinking haha
+25/09/2016, 19:33 - abigailcoe: Oh dear me Ajay, I never know what to think with you
+25/09/2016, 19:33 - Ajay: Haha
+25/09/2016, 19:35 - Ajay: I've got the same problem, when I started again, I tested the {{1 +1 }} thing and it didn't work the second time...no idea why though
+25/09/2016, 19:35 - abigailcoe: Yeah I had that before, it was fine
+25/09/2016, 19:35 - Ajay: I thought it was the bower i angular install but it's not
+25/09/2016, 19:35 - abigailcoe: Amazingly I do have a shit index now :)
+25/09/2016, 19:36 - Ajay: Amazing!!!!
+25/09/2016, 19:36 - abigailcoe: <Media omitted>
+25/09/2016, 19:36 - abigailcoe: I mean look at this.
+25/09/2016, 19:36 - Ajay: Haha wtf
+25/09/2016, 19:37 - abigailcoe: Yes, there is a Hello Kitty branded Glock.
+25/09/2016, 19:37 - Ajay: I want one
+25/09/2016, 19:38 - Ajay: If only there was an app where I can search for random hello kitty crap! 😹
+25/09/2016, 19:40 - abigailcoe: Just you wait....
+25/09/2016, 19:40 - abigailcoe: sidebar: wtf is ng-model?
+25/09/2016, 19:42 - Ajay: I think it's the directive to bind stuff in the forms like binding an input tag
+25/09/2016, 19:42 - abigailcoe: but in an img tag you'd write ng-src
+25/09/2016, 19:42 - abigailcoe: and in an li you write ng-repeat
+25/09/2016, 19:42 - Ajay: Yep
+25/09/2016, 19:43 - abigailcoe: is ng-model just for when I want to reference things without repeating them or them being a picture or whatever? say like the greeting example on the home.html?
+25/09/2016, 19:45 - abigailcoe: I WAS MISSING A CURLY BRACE
+25/09/2016, 19:45 - Ajay: Not too sure if it's just for that. I've only seen in in the forms tbh
+25/09/2016, 19:46 - abigailcoe: I've basically dropped position to become decidedly below average in class rankings today
+25/09/2016, 19:46 - Ajay: Err no you haven't!
+25/09/2016, 19:46 - Ajay: You're probably bottom of the class
+25/09/2016, 19:47 - Ajay: Haha seriously though you're up there, I can tell with these things
+25/09/2016, 19:47 - abigailcoe: haha fuck you, Lard
+25/09/2016, 19:48 - Ajay: It's just a constant rollercoaster! You know better than me!
+25/09/2016, 19:48 - abigailcoe: What do I know better?
+25/09/2016, 19:49 - Ajay: You're definitely in the top quartile!
+25/09/2016, 19:49 - abigailcoe: aww thanks
+25/09/2016, 19:49 - abigailcoe: keep saying stuff like that
+25/09/2016, 19:50 - abigailcoe: Lie to me Lard.
+25/09/2016, 19:50 - Ajay: You know the philosophy behind the WDI mindset better!
+25/09/2016, 19:51 - abigailcoe: Do I?
+25/09/2016, 19:51 - Ajay: I'm not lying!
+25/09/2016, 19:51 - abigailcoe: The philosophy behind the WDI mindset?
+25/09/2016, 19:51 - Ajay: Yes you have your head firmly screwed on !! So you're gonna be fine.
+25/09/2016, 19:52 - Ajay: Rollercoaster...don't give up...ups and downs...keep on going...etc etc
+25/09/2016, 19:52 - abigailcoe: Oh I have no doubt that I'll be fine, I just know I haven't learned this part properly, and I was hoping that I would understand it better by now. I just don't get how the bits all link together
+25/09/2016, 19:52 - abigailcoe: Oh yeah, that's just learning though. If you're around it long enough it'll sink it
+25/09/2016, 19:53 - abigailcoe: Oh my god my typing has become so incredible - even more incredible than before - since I started doing this course
+25/09/2016, 19:54 - Ajay: Same here, I don't use my index finger only now...and I use both hands too
+25/09/2016, 19:58 - Ajay: I don't have a great understanding of it myself to be honest but, I think the key is that angular doesn't link very much at all to the backend. It's just one request, and then it's just Ajax after that. Initially I thought I had to understand how the two frameworks intertwined, but really it's all about organisation.   Angular doesn't really help with names like controllers and models just like in nose express though
+25/09/2016, 20:00 - Ajay: Fuck your MEAN stack!
+25/09/2016, 20:01 - Ajay: And fuck you autocorrect
+25/09/2016, 20:02 - abigailcoe: And just generally fuck you to anyone else who's listening
+25/09/2016, 20:03 - Ajay: Yeah fuck you ha
+25/09/2016, 20:03 - abigailcoe: That's a lovely big paragraph you wrote up there. It sounds an awful lot like you know what you're talking about
+25/09/2016, 20:05 - Ajay: Oh, I wish...and how wrong you are Coe! It won't be long before I actually get to JavaScript Ninja status though...not long now! Haha
+25/09/2016, 20:07 - abigailcoe: We are the most ninja WDI of all time. FACT.
+25/09/2016, 20:12 - Ajay: We are also the most gudetame WDI of all time too. FACT lol
+25/09/2016, 20:23 - abigailcoe: LazyEgg 4 lyfe.
+25/09/2016, 20:32 - abigailcoe: <Media omitted>
+25/09/2016, 20:39 - Ajay: Haha now that's a glock
+09/10/2016, 17:39 - abigailcoe: Ajay I'm really sad, will you tell me about your weekend to cheer me up?
+09/10/2016, 17:43 - Ajay:
+09/10/2016, 17:45 - abigailcoe: I can't talk I'm crying :(
+09/10/2016, 17:46 - Ajay: Booo! What's up Abi!!
+09/10/2016, 17:46 - abigailcoe: I'm just sad. People are horrible and I'm horrible and I'm sad about the whole thing
+09/10/2016, 17:47 - abigailcoe: what are you doing?
+09/10/2016, 17:47 - Ajay: This is very much a call up Ajay as soon as you can situation, so you must but until then...
+09/10/2016, 17:48 - Ajay: I'm currently being boring and trying to update my cv, so actually I'm probably having a worst time than you lol
+09/10/2016, 17:48 - Ajay: 😭
+09/10/2016, 17:48 - abigailcoe: oh lol Lard
+09/10/2016, 17:48 - Ajay: You're not horrible Coe!
+09/10/2016, 17:48 - abigailcoe: everyone is horrible somehow or another :)
+09/10/2016, 17:51 - Ajay: I haven't had this bad a hangover for sometime, I was celebrating my friends birthday last night...I needed one of Alex's real life coding errors lol
+09/10/2016, 17:51 - abigailcoe: oh dear...that's ringing a faint bell but I can't quite remember what they are
+09/10/2016, 17:52 - Ajay: Haha good night on Friday at Alex's then, did you finally finish your dance off with Sam lol
+09/10/2016, 17:53 - abigailcoe: awww no, we didn't dance, but Sam did collapse onto the bean bag and get all vulnerable, love him. Alex also instantaneously turned into a child as soon as his sister arrived, it was kinda incredible
+09/10/2016, 17:54 - abigailcoe: I think i"m going to order a kebab
+09/10/2016, 17:54 - Ajay: Hahahah perfect cure for tears
+09/10/2016, 17:54 - abigailcoe: does chattorey deliver to London?
+09/10/2016, 17:54 - abigailcoe: Kebabs + tea 4 lyfe
+09/10/2016, 17:54 - Ajay: Lol we don't deliver at all, collection only darling
+09/10/2016, 17:54 - abigailcoe: you guys are so fucking fancy
+09/10/2016, 17:55 - Ajay: So fancy lol
+09/10/2016, 17:56 - Ajay: We need to have dinner at Chattorey! So excited to show you some of he dishes. When you see the location you'll realise how fancy it really is lol
+09/10/2016, 17:57 - abigailcoe: I would love that
+09/10/2016, 17:57 - abigailcoe: I only eat in fancy locations
+09/10/2016, 17:57 - Ajay: Lol maybe not Chattorey then haha
+09/10/2016, 17:58 - abigailcoe: don't kid around, I've seen the website
+09/10/2016, 17:58 - Ajay: Anyway, are you going to tell me why you're so sad missy?!
+09/10/2016, 17:58 - abigailcoe: it's basically like Gravey's Savoy, no?
+09/10/2016, 17:58 - Ajay: Haha
+09/10/2016, 17:58 - Ajay: We were going to call it that initially
+09/10/2016, 17:58 - abigailcoe: hahahaaaaa
+09/10/2016, 17:59 - abigailcoe: I just feel really lonely
+09/10/2016, 17:59 - abigailcoe: I've pretty much lost two friends this weekend
+09/10/2016, 18:01 - Ajay: Oh no...What happened? Have you really lost them? Is it just a terrible fight? I'm sure it can be fixed if they're actually worth being friends with right
+09/10/2016, 18:01 - abigailcoe: I'm not sure that they are
+09/10/2016, 18:02 - abigailcoe: I met one on Friday night and he behaved so badly I had to draw a line under ever seeing him again.
+09/10/2016, 18:03 - Ajay: I wasn't that bad at the Black Horse was I 😳
+09/10/2016, 18:03 - abigailcoe: We basically got an Uber and he pissed the driver off by being a smart ass, and then just went skitz when the driver called him out and he beat the driver up. It was horrible. I was so scared
+09/10/2016, 18:04 - abigailcoe: You're the worst, but at least I already knew that ;)
+09/10/2016, 18:07 - abigailcoe: so I was with the other friend this morning, and I messaged the first to be like 'wish you all the best forever, but i don't think we should hang out any more' and I was feeling a bit bummed out about it, we went to a cafe and I cried, then I went home, some lady in the cafe told him off because she thought he had made me cry and he just let forth at me saying it was unacceptable that I couldn't control my emotions and I embarrassed him and if I'm sad all I need to do is be happy so there was no excuse for the way I behaved
+09/10/2016, 18:12 - Ajay: Wow, I wasn't expecting that! I see where you're coming from now. The first friend seems like he may have serious issues to deal with. The second one was just horrible, making you feel shit for feeling shit, I mean come on?! Well I wouldn't waste time crying over them, "if you're sad all you need to do is be happy so there is no excuse for the way you're behaving right now" stop crying!! 😡
+09/10/2016, 18:13 - Ajay: Haha just kidding!
+09/10/2016, 18:13 - abigailcoe: hahah
+09/10/2016, 18:13 - abigailcoe: oh Ajay Bj
+09/10/2016, 18:13 - Ajay: Seriously though don't waste your tears, you don't need that kind of drama in your life lol
+09/10/2016, 18:14 - abigailcoe: I know, right?
+09/10/2016, 18:14 - abigailcoe: I just mad care waaaaay to much about what people think of me.
+09/10/2016, 18:16 - Ajay: Please read these messages with a Bane voice because thats the voice I'm talking to my phone with while writing them haha
+09/10/2016, 18:16 - abigailcoe: Why is Bane's voice like that?
+09/10/2016, 18:17 - abigailcoe: Did he get some vocal cord operation to sound distinctive?
+09/10/2016, 18:17 - Ajay: Because he mad cares waaaaay too much about what people think of him
+09/10/2016, 18:17 - Ajay: And look at him, he's so cool
+09/10/2016, 18:17 - abigailcoe: I am basically Bane, it's true
+09/10/2016, 18:17 - abigailcoe: I could definitely beat up Batman
+09/10/2016, 18:17 - Ajay: So even the best of us can feel self conscious... even Bane luv
+09/10/2016, 18:18 - Ajay: You actually could
+09/10/2016, 18:18 - abigailcoe: but then I would cry afterwards
+09/10/2016, 18:18 - abigailcoe: which let's be honest, is unacceptable
+09/10/2016, 18:19 - Ajay: Was it you who beat up that taxi driver?! are you just trying to blame your friend for a horrible thing that you've done haha
+09/10/2016, 18:19 - abigailcoe: It wasn't "me" who beat up the taxi driver
+09/10/2016, 18:19 - abigailcoe: But it was a 5'4" person with long wavy brown hair and big white glasses
+09/10/2016, 18:19 - Ajay: Haha! But you're so hard Abi
+09/10/2016, 18:20 - abigailcoe: on the outside
+09/10/2016, 18:25 - Ajay: You're really sweet though, seriously! I don't think anyone can truly think horrible thoughts about you. The guy who was telling you that it's unacceptable for you to cry clearly is more self conscious than you, you're able to be yourself in public places and he clearly isn't capable of it, instead he goes into a mad panic and decides to be horrible to a friend, who he thinks he can treat like shit without consequences, and that they will stick with him regardless, because they're a kind person. Well just because you're kind it doesn't mean you have put up with that type of behaviour!
+09/10/2016, 18:31 - abigailcoe: That's so nice of you to say. I really appreciate that. Thank you for caring and being a friend. I really needed it :) * Insert take the piss joke here so it doesn't get too intense, maybe something about how you need to change the bandages on your knuckles *
+09/10/2016, 18:31 - abigailcoe: Shall I get doner or shish?
+09/10/2016, 18:33 - Ajay: Lol
+09/10/2016, 18:34 - Ajay: Shish kebab for me
+09/10/2016, 18:34 - abigailcoe: This kebab place does turnip juice.
+09/10/2016, 18:34 - abigailcoe: What the hell.
+09/10/2016, 18:35 - Ajay: Haha turnip juice wtf
+09/10/2016, 18:35 - Ajay: Maybe it's a Turkish thing
+09/10/2016, 18:35 - abigailcoe: whatever it is it's crazy talk
+09/10/2016, 18:36 - Ajay: Whatever it is...I'm onboard
+09/10/2016, 18:36 - Ajay: http://www.stylecraze.com/articles/amazing-benefits-of-turnip-juice/?spa_post=241280
+09/10/2016, 18:36 - Ajay: Lol
+09/10/2016, 18:37 - abigailcoe: hahahahaaaaaa amazing
+09/10/2016, 19:00 - Ajay: Right luv, I've got to go...need to pop into the restaurant, hope you're feeling a bit better though. I know we haven't known each other long, but you're clearly a caring and genuine person, and that's pretty rare! Everyone's self conscious, in fact you'd be a bit of Donald Trump character if you weren't lol. Even if that doesn't make you feel better I'm pretty confident the kebab will 😁Give me a ring anytime if you're feeling shit x
+09/10/2016, 19:02 - abigailcoe: I have managed to stop crying, miraculously, and I don't think that would have happened without you. Thanks again. Mad can't waaaaaaait to see you tomorrow x
+19/10/2016, 19:19 - abigailcoe: Thanks for checking on me 🤓
+19/10/2016, 22:50 - Ajay: Aw no worries, see you tomorrow.

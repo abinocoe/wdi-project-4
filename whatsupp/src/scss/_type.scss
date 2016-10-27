@@ -1,0 +1,58 @@
+body {
+ font-family: $lesserFont
+}
+
+h4 {
+  margin: 3%;
+}
+
+h2 {
+  color: $red;
+  font-family: $mainFont;
+  letter-spacing: 1px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: $red;
+  color!: white;
+}
+
+#heading {
+  font-family: $mainFont;
+  font-size: 7.0rem;
+  text-align: center;
+  // margin-top: 2%;
+}
+
+#logo-dot {
+  color: $red;
+}
+
+.results {
+  font-size: 2.6rem;
+  font-weight: 700;
+
+  .number {
+    font-size: 1.8rem;
+    list-style: none;
+    text-align: center;
+  }
+}
+
+.upload-instructions {
+  font-size: 1.8rem;
+}
+
+
+.positive {
+  color: $green;
+}
+
+.negative {
+  color: $red;
+}
+
+.neutral {
+  color: $amber;
+}
