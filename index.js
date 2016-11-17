@@ -31,4 +31,4 @@ app.post("/upload", upload.single('file'), (req,res) => {
 
 app.get("/*", (req, res) => res.sendFile(`${__dirname}/index.html`));
 
-app.listen(config.port, () => console.log(`Express started on port: ${port}`));
+app.listen(config.port, () => console.log(`Express started on port: ${config.port}`));
