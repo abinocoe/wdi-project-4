@@ -1,3 +1,4 @@
 module.exports = {
-  db: process.env.PORT || 'mongodb://localhost/whatsupp'
+  db: process.env.MONGODB || 'mongodb://localhost/whatsupp',
+  port: process.env.PORT || 3000
 };

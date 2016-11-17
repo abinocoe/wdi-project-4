@@ -8,7 +8,6 @@ const router          = require('./config/routes');
 const ChatManipulator = require('./lib/chatManipulator');
 const config          = require('./config/config');
 
-const port    = process.env.PORT || 3000;
 mongoose.connect(config.db);
 
 app.use(bodyParser.json());
@@ -32,4 +31,4 @@ app.post("/upload", upload.single('file'), (req,res) => {
 
 app.get("/*", (req, res) => res.sendFile(`${__dirname}/index.html`));
 
-app.listen(port, () => console.log(`Express started on port: ${port}`));
+app.listen(config.port, () => console.log(`Express started on port: ${port}`));
