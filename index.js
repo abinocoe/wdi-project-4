@@ -6,29 +6,27 @@ const upload          = multer();
 const app             = express();
 const router          = require('./config/routes');
 const ChatManipulator = require('./lib/chatManipulator');
-
+const config          = require('./config/config');
 
 const port    = process.env.PORT || 3000;
-mongoose.connect('mongodb://localhost/whatsupp');
-
-
+mongoose.connect(config.db);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-
 app.use(express.static(`${__dirname}/public`));
 
 app.post("/upload", upload.single('file'), (req,res) => {
+  console.log(req.file.buffer);
   let text = req.file.buffer.toString('utf-8');
 
   ChatManipulator(text)
     .then((data) => {
       console.log(data);
-      console.log("AAAAAAAAAAAAAaammmmmmmada");
+      console.log("AAAAAAAAAAAAA");
       res.status(200).json(data);
     })
-    .catch(function(){
-      console.log("ERROR");
+    .catch(function(err){
+      console.log("Something went wrong:", err);
     });
 });
 
