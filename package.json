@@ -48,5 +48,8 @@
     "main-bower-files": "^2.13.1",
     "mocha": "^3.0.2",
     "supertest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6.x"
   }
 }
